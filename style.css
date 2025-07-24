@@ -28,13 +28,14 @@
     display: flex;
     max-width: 980px;
     height: 71px;
+    margin: 0px auto;
     justify-content: space-between;
     align-items: center;
     margin-top:20px;
 }
 .navber-left img{
   max-width: 100%;
-  margin-left: 60px;
+  
 }
 .navber-right ul{
     display: flex;
@@ -59,4 +60,42 @@
     font-size: 1rem;
     font-weight:300;
     margin-left:10px;
+}
+
+/* banner section */
+
+.banner-section{
+    display: flex;
+    max-width: 980px;
+    height: 460px;
+    margin: 0px auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.banner-content{
+    max-width:510px;
+    height: 280px;
+}
+.banner-image{
+    max-width: 460px;
+    height:340px;
+}
+.banner-image img {
+    max-width: 100%;
+}
+.banner-tital h2{
+    color: #000000;
+    font-size:3.6rem;
+    font-weight: bold;
+    margin: 8px;
+}
+#tital-color{
+    color: #E95A08;
+}
+.banner-description p {
+    color:rgba(0, 0, 0, 0.5);
+    font-size: 1.3rem;
+    font-weight:300;
+    margin: 15px;
 }
