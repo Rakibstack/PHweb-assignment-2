@@ -407,3 +407,33 @@
         display: none;
     }
 }
+
+
+@media screen and (max-width:576px){
+     .deal-section{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 100px;
+     }
+     .latest-deals-section{
+        width: 100%;
+        margin-top:650px;
+     }
+}
+
+
+@media screen and (min-width:576px) and (max-width:780px) {
+       .deal-section{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 100px;
+        margin-left:20px;
+     }
+     .latest-deals-section{
+        width: 100%;
+        margin-top:650px;
+        margin-left: 20px;
+     }
+}
