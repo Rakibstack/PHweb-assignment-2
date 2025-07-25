@@ -252,7 +252,7 @@
 
 }
 .banner{
-    height: 200px;
+    height:200px;
     position: relative;
     overflow: hidden;
 }
@@ -263,6 +263,7 @@
 
 .large-banner{
     height: 420px;
+    width: 680px;
     overflow: hidden;
     position: relative;
 }
@@ -548,4 +549,28 @@
     max-width: 100%;
 }
     
+}
+
+
+@media screen and (max-width:576px) {
+    
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .footer-icon-section{
+        justify-content: flex-start;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:680px) {
+     .footer-content{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .footer-icon-section{
+        justify-content: flex-start;
+    }
 }
