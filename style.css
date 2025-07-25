@@ -262,8 +262,7 @@
 }
 
 .large-banner{
-    height: 420px;
-    width: 680px;
+    height:420px;
     overflow: hidden;
     position: relative;
 }
@@ -510,7 +509,9 @@
      .latest-deals-section{
         width: 100%;
         margin-top:650px;
+    
      }
+    
 }
 
 
